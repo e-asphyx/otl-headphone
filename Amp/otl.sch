@@ -3303,7 +3303,7 @@ For COM-09806 in the SparkFun catalog&lt;br&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="V2" library="my-tubes" deviceset="6AS7G-P-NH" device="OUTLET"/>
+<part name="V2" library="my-tubes" deviceset="6AS7G-P-NH" device="OUTLET" value="6AS7-G"/>
 <part name="R6" library="my-res" deviceset="RESISTOR" device="PTH-2W" value="750"/>
 <part name="R8" library="my-res" deviceset="RESISTOR" device="PTH-2W" value="750"/>
 <part name="R10" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="330"/>
@@ -3315,7 +3315,7 @@ For COM-09806 in the SparkFun catalog&lt;br&gt;</description>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R5" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="330"/>
 <part name="FRAME1" library="frames" deviceset="DINA3_L" device=""/>
-<part name="V1" library="my-tubes" deviceset="6SN7GT-P-NH" device="OUTLET"/>
+<part name="V1" library="my-tubes" deviceset="6SN7GT-P-NH" device="OUTLET" value="6SN7-GTB"/>
 <part name="C1" library="capacitor-wima" deviceset="C" device="5/5.5" value="0.47uF"/>
 <part name="C2" library="my-cap" deviceset="CAP_POL" device="PTH-16/7.5" value="470uF/63V"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3325,7 +3325,7 @@ For COM-09806 in the SparkFun catalog&lt;br&gt;</description>
 <part name="C6" library="my-cap" deviceset="CAP_POL" device="PTH-25/12.5" value="220uF/400V"/>
 <part name="R12" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="100k"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="V3" library="my-tubes" deviceset="6AS7G-P-NH" device="OUTLET"/>
+<part name="V3" library="my-tubes" deviceset="6AS7G-P-NH" device="OUTLET" value="6AS7-G"/>
 <part name="R18" library="my-res" deviceset="RESISTOR" device="PTH-2W" value="750"/>
 <part name="R20" library="my-res" deviceset="RESISTOR" device="PTH-2W" value="750"/>
 <part name="R22" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="330"/>
