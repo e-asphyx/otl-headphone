@@ -712,6 +712,17 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="-1.54" y="2.89" size="0.8128" layer="27">&gt;Value</text>
 <text x="-1.54" y="5.16" size="0.8128" layer="25">&gt;Name</text>
 </package>
+<package name="CPOL-DIN41238-40">
+<pad name="NC1" x="-10" y="0" drill="1.3" diameter="2.54"/>
+<pad name="NEG" x="10" y="10" drill="1.3" diameter="2.54"/>
+<pad name="NC2" x="0" y="10" drill="1.3" diameter="2.54"/>
+<pad name="POS" x="0" y="-10" drill="1.3" diameter="2.54"/>
+<pad name="NC3" x="7.5" y="0" drill="1.3" diameter="2.54"/>
+<circle x="0" y="0" radius="20" width="0.2032" layer="21"/>
+<wire x1="10.16" y1="12.7" x2="12.065" y2="12.7" width="0.3048" layer="21"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP_POL">
@@ -811,6 +822,15 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <connects>
 <connect gate="G$1" pin="+" pad="1"/>
 <connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTH-DIN41238-40" package="CPOL-DIN41238-40">
+<connects>
+<connect gate="G$1" pin="+" pad="POS"/>
+<connect gate="G$1" pin="-" pad="NEG"/>
 </connects>
 <technologies>
 <technology name=""/>
