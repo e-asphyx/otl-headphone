@@ -1842,8 +1842,10 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="X5" library="my-conn" deviceset="MOUNT-PAD" device="2.0"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LOGO1" library="my" deviceset="LOGO-MANTIS" device=""/>
-<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.6"/>
-<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.6"/>
+<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.2" value="MOUNT-HOLE3.2"/>
+<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.2" value="MOUNT-HOLE3.2"/>
+<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.2" value="MOUNT-HOLE3.2"/>
+<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.2" value="MOUNT-HOLE3.2"/>
 </parts>
 <sheets>
 <sheet>
@@ -1897,6 +1899,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="LOGO1" gate="G$1" x="165.1" y="5.08"/>
 <instance part="H1" gate="G$1" x="60.96" y="35.56"/>
 <instance part="H2" gate="G$1" x="60.96" y="27.94"/>
+<instance part="H3" gate="G$1" x="33.02" y="35.56"/>
+<instance part="H4" gate="G$1" x="33.02" y="27.94"/>
 </instances>
 <busses>
 </busses>
