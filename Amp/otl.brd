@@ -745,7 +745,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="79.375" y="10.795" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="78.486" y="13.081" size="0.8128" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="R12" library="my-res" package="AXIAL-0.4" value="100k" x="15.24" y="30.48" smashed="yes" rot="R180">
+<element name="R12" library="my-res" package="AXIAL-0.4" value="2.7k" x="15.24" y="30.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.415" y="33.02" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="17.526" y="30.861" size="0.8128" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
@@ -793,7 +793,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="79.375" y="53.975" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="78.486" y="56.261" size="0.8128" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="R24" library="my-res" package="AXIAL-0.4" value="100k" x="15.24" y="38.1" smashed="yes" rot="R180">
+<element name="R24" library="my-res" package="AXIAL-0.4" value="2.7k" x="15.24" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.415" y="36.195" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="17.526" y="38.481" size="0.8128" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
